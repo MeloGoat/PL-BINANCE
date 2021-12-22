@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+<link rel="stylesheet" href="style.css" type="text/css">
 
 <head>
     <meta charset="UTF-8">
@@ -11,15 +12,37 @@
             background-color: rgb(245, 245, 245);
             color: red
         }
+
+        h1 {
+            color: yellowgreen
+        }
+
+        h2 {
+            color: turquoise
+        }
     </style>
 </head>
 
-<body>
-    <p style="color: red; font-size: 20px;">This is my first paragraph.</p>
-    <button style="color:seagreen">Click me</button>
-    <button style="color:skyblue">Don't Click</button>
-    <button>Cancel</button>
+<body style="background-color: tan;">
 
+    <h1 id="head1">Titre en Grand</h1>
+    <h2 style="text-align:center">Titre en moins grand</h2>
+    <p>This is my first paragraph.</p>
+    <div>
+        <div>
+            <p>Paragraphe jaune</p>
+        </div>
+        <p>Paragraphe vert</p>
+        <p>Paragraphe bleu</p>
+    </div>
+    <button class="btn" style="color:seagreen">Click me</button>
+    <button class="btn" style="color:skyblue">Don't Click</button>
+    <button class="btn">Cancel</button>
+    <img class="img"
+        src="https://th.bing.com/th/id/R.8fb0bdb5c755d93daad9d2e5e15b59ac?rik=coYpEjCrbYI69Q&riu=http%3a%2f%2fevasion-online.com%2fimagearticle%2f2015%2f07%2fparis-photo.jpg&ehk=tc1CATKiOw2hTBSQUyT8IINrIGjh2kHpI1vlyd2KSbQ%3d&risl=&pid=ImgRaw&r=0&sres=1&sresct=1">
+    <iframe class="vid"
+        src="https://www.bing.com/videos/search?q=king+von+demon+lyrics&&view=detail&mid=18870330FB838E3E1A6F18870330FB838E3E1A6F&&FORM=VRDGAR&ru=%2Fvideos%2Fsearch%3Fq%3Dking%2Bvon%2Bdemon%2Blyrics%26FORM%3DHDRSC4">
+    </iframe>
 </body>
 
 </html>
