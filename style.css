@@ -1,0 +1,34 @@
+body {
+    font-family: serif;
+    background-color: blue;
+}
+#head1 {
+    text-align: center;
+    color: crimson;
+}
+.btn {
+    width: 120px;
+}
+div div p:first-child {
+    color: darkgoldenrod;
+}
+
+p {
+    
+    color: red;
+    font-size: 20px;
+}
+div p {
+    color:green;
+}
+div p:last-child {
+    color: blue;
+}
+.img {
+    width: 500px;
+    float: left;
+}
+.vid {
+    width: 1000px;
+    float: center;
+}
